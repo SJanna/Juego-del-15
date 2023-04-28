@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Juego del 15</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+  <body class="bg-gray-100 flex flex-col justify-center items-center min-h-screen">
+    <div id="game" class="bg-gray-200 p-4 rounded-md shadow-md">
+      <div class="grid grid-cols-4 gap-4">
+        <div class="cell col-span-1 row-span-1 py-6 px-8 font-bold bg-gray-300 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 cursor-pointer duration-300 text-center rounded-md" id="cell-0">1</div>
+        <div class="cell col-span-1 row-span-1 py-6 px-8 font-bold bg-gray-300 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 cursor-pointer duration-300 text-center rounded-md" id="cell-1">2</div>
+        <div class="cell col-span-1 row-span-1 py-6 px-8 font-bold bg-gray-300 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 cursor-pointer duration-300 text-center rounded-md" id="cell-2">3</div>
+        <div class="cell col-span-1 row-span-1 py-6 px-8 font-bold bg-gray-300 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 cursor-pointer duration-300 text-center rounded-md" id="cell-3">4</div>
+        <div class="cell col-span-1 row-span-1 py-6 px-8 font-bold bg-gray-300 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 cursor-pointer duration-300 text-center rounded-md" id="cell-4">5</div>
+        <div class="cell col-span-1 row-span-1 py-6 px-8 font-bold bg-gray-300 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 cursor-pointer duration-300 text-center rounded-md" id="cell-5">6</div>
+        <div class="cell col-span-1 row-span-1 py-6 px-8 font-bold bg-gray-300 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 cursor-pointer duration-300 text-center rounded-md" id="cell-6">7</div>
+        <div class="cell col-span-1 row-span-1 py-6 px-8 font-bold bg-gray-300 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 cursor-pointer duration-300 text-center rounded-md" id="cell-7">8</div>
+        <div class="cell col-span-1 row-span-1 py-6 px-8 font-bold bg-gray-300 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 cursor-pointer duration-300 text-center rounded-md" id="cell-8">9</div>
+        <div class="cell col-span-1 row-span-1 py-6 px-8 font-bold bg-gray-300 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 cursor-pointer duration-300 text-center rounded-md" id="cell-9">10</div>
+        <div class="cell col-span-1 row-span-1 py-6 px-8 font-bold bg-gray-300 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 cursor-pointer duration-300 text-center rounded-md" id="cell-10">11</div>
+        <div class="cell col-span-1 row-span-1 py-6 px-8 font-bold bg-gray-300 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 cursor-pointer duration-300 text-center rounded-md" id="cell-11">12</div>
+        <div class="cell col-span-1 row-span-1 py-6 px-8 font-bold bg-gray-300 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 cursor-pointer duration-300 text-center rounded-md" id="cell-12">13</div>
+        <div class="cell col-span-1 row-span-1 py-6 px-8 font-bold bg-gray-300 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 cursor-pointer duration-300 text-center rounded-md" id="cell-13">14</div>
+        <div class="cell col-span-1 row-span-1 py-6 px-8 font-bold bg-gray-300 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 cursor-pointer duration-300 text-center rounded-md" id="cell-14">15</div>
+        <div class="cell col-span-1 row-span-1 py-6 px-8 font-bold bg-gray-300 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 cursor-pointer duration-300 text-center rounded-md" id="cell-15"></div>
+      </div>
+    </div>
+    <div class="my-4">
+      <button id="start-button" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded">START</button>
+    </div>
+    <div id="moves-counter" class="text-lg font-bold my-4"></div>
+    <div id="timer" class="text-lg font-bold my-4"></div>
+    <script src="src/js/index.js"></script>
+  </body>
+</html>
+
+
+
